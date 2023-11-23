@@ -1,0 +1,38 @@
+.container {
+  /* height: calc(150vh - 150px); */
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.title {
+  color: black;
+}
+.describe {
+  font-size: 24px;
+  color: black;
+  width: 70%;
+  text-align: justify;
+}
+.titles {
+  color: brown;
+  justify-content: left;
+}
+.list {
+  list-style: none;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 992px) {
+  .title {
+    text-align: center;
+  }
+  .describe {
+    width: 100%;
+    text-align: justify;
+    align-items: flex-start;
+  }
+}

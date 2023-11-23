@@ -1,0 +1,81 @@
+.input {
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px;
+  color: black;
+}
+.form {
+  margin-left: 50px;
+  justify-content: center;
+  padding-left: 30px;
+}
+.add {
+  margin-left: 90px;
+
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  background-color: blue;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+  padding-bottom: 2px;
+  font-size: large;
+  border: 0;
+  height: 30px;
+
+  cursor: pointer;
+}
+.add:hover {
+  background-color: rgb(48, 33, 33);
+}
+.btnspan {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.btn {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+/* styles for addExecutive page */
+.backBtn button{
+  cursor: pointer;
+  background-color: green;
+  width: 80px;
+  height: 50px;
+  list-style: none;
+  margin-left: 30px;
+  color: white;
+  font-size: 30px;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 5px;
+}
+.header {
+  color: blueviolet;
+  margin-left: 45%;
+  font-family: "Roboto" sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  font-style: italic;
+}
+.content {
+  /* background-color: rgb(213, 222, 199); */
+
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.box {
+  width: 50%;
+
+  margin-left: 35%;
+  border-radius: 30px;
+}

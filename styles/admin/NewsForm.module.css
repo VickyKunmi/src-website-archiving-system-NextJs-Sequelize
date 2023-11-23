@@ -1,0 +1,110 @@
+.content{
+    margin-left: 14%;
+    margin-top: 15px;
+}
+
+.img{
+    margin-left: 15%;
+    border-radius: 15px;
+}
+.icon{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 15%;
+   
+}
+.dateset{
+    cursor: pointer;
+    margin-left: 15%;
+}
+
+.item{
+    display: flex;
+    
+}
+
+.title{
+    /* padding: 10px; */
+    margin-right: 10px;
+    /* border: 0; */
+    color: black;
+    font-family: "Roboto" sans-serif;
+    font-size: 25px;
+    font-weight: bold;  
+    padding-left: 10px;
+    width: 45%; 
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+}
+.category{
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+    padding-left: 10px;
+    width: 45%; 
+    font-size: 16px;
+}
+
+.btn{
+   background-color: blue;
+   color: white;
+   border-radius: 5px;
+}
+.btn:hover{
+    background-color: goldenrod;
+}
+.text{
+    margin-top: 10px;
+    width: 80%;
+   
+}
+.date{
+    margin-left: 15%;
+    margin-top: 10px;
+    display: block;
+}
+.textInput{
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+    width: 650px;
+}
+.textInput:focus{
+    outline: none;
+}
+
+.header{
+    font-family: "Roboto" sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40%;
+}
+.textSpace{
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 20px;
+    
+}
+
+.items{
+    margin-top: 20px;
+    border: 20px solid gray;
+    width: 80%;
+    
+    
+}
+
+.button{
+    margin-left: 60%;
+}

@@ -1,0 +1,43 @@
+.wrapper{
+    margin-left: 12%;
+    /* display: block; */
+}
+.content{
+    margin-top: 2%;
+    /* height: 5%; */
+    /* width: 100%; */
+    /* margin-left: 80%; */
+    display: flex;
+}
+.input{
+    /* border: 0; */
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    height: calc(2.25em + 2px);
+    width: 70%;
+}
+.table{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.right{
+    margin-left: 70%;
+}
+.input:focus{
+   outline: none;
+}
+.button{
+   
+    background-color: aqua;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 5%;
+    
+}
+.button:hover{
+    background-color: goldenrod;
+}

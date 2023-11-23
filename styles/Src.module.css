@@ -1,0 +1,36 @@
+.container {
+    /* height: calc(180vh - 180px); */
+    display: flex;
+    padding-left: 120px;
+    margin-top: 4%;
+}
+
+.leftContent {
+    text-align: justify;
+    padding-left: 2%;
+    width: 70%;
+    padding: 20px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: "Roboto" sans-serif;
+    width: 95%;
+    padding-top: 2px;
+    line-height: 3em;
+}
+
+.list {
+    padding-left: 30px;
+}
+
+.contents {
+    text-align: justify;
+    display: block;
+}
+
+.rightContent {
+    width: 30%;
+    padding: 20px;
+    height: auto;
+}

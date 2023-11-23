@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  height: calc(100vh - 100px);
+  background-color: rgb(250, 246, 246);
+  overflow: hidden;
+}
+.arrowContainer {
+  position: absolute;
+  width: 5%;
+  /* background-color: rgba(12, 12, 12, 0.562); */
+  border-radius: 90%;
+  padding: 15px;
+  height: 15%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 2;
+}
+.wrapper {
+  padding: 5px;
+  width: 300vw;
+  height: 100%;
+  display: flex;
+  transition: all 1.5s ease-in-out;
+}
+.imgContainer {
+  width: 100vw;
+  position: relative;
+  height: 100%;
+  padding: 0;
+}
+@media screen and (max-width: 992px) {
+  .container {
+    height: 70vh;
+  }
+  .imgContainer {
+    position: relative;
+    height: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+/* .view:hover{
+    background-color: rgb(36, 36, 71);
+} */
+.delete{
+    background-color: red;
+    color: white;
+    border-radius: 0;
+}
+.delete:hover{
+    background-color: rgb(53, 24, 24);
+}
+.search{
+    margin-bottom: 30px;
+}
+.pagination{
+    margin-top: 30px;
+    margin-left: 30%;
+}

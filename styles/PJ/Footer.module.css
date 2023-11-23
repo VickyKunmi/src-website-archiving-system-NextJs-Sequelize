@@ -1,0 +1,49 @@
+.container {
+  /* height: calc(50vh - 50px); */
+  background-color: rgb(206, 205, 205);
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  /* positon: fixed; */
+}
+.item {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+.item:last-child {
+  flex: 2;
+  padding: 50px;
+  justify-content: space-between;
+}
+.card {
+  flex: 1;
+  padding: 0 20px;
+}
+.title {
+  color: rgb(63, 50, 23);
+  font-size: 18px;
+}
+.text {
+  color: rgb(5, 5, 46);
+}
+.motto {
+  color: rgb(33, 29, 17);
+}
+@media screen and (max-width: 992px) {
+  .container {
+    height: auto;
+    text-align: center;
+  }
+  .item:first-child {
+    display: none;
+  }
+  .item {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}

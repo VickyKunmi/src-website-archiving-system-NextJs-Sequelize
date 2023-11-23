@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    background-color: #54ad98;
+    margin-left: 200px;
+    /* position: fixed; */
+    /* position: sticky; */
+    /* top: 0; */
+    width: 100%;
+}
+.image{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .title {
+    margin-left: 40px;
+  }
+  .title > h2 {
+    color: #fff;
+    
+  }

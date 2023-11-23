@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70px;
+  background-color: rgb(216, 201, 232);
+  margin-left: 200px;
+  font-family: "Roboto", sans-serif;
+}
+.image {
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title {
+  margin-left: 40px;
+}
+.title > h2 {
+  color: rgb(124, 124, 255);
+}
+.title > h2 > span {
+  color: rgb(45, 36, 13);
+}
+
+.title > p {
+  color: rgb(22, 19, 1);
+  font-weight: bold;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-left: 70px;
+  }
+  .image {
+    display: none;
+  }
+}

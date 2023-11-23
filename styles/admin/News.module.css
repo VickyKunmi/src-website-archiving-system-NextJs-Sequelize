@@ -1,0 +1,115 @@
+.container {
+  color: black;
+}
+.wrapper {
+  margin-left: 160px;
+  padding: 50px;
+}
+.addNews {
+  background-color: rgb(54, 54, 199);
+  color: white;
+  margin-bottom: 30px;
+}
+.addNews:hover {
+  background-color: goldenrod;
+  
+}
+
+.delete{
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+  display: flex;
+  margin-left: 30%;
+}
+.question{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+  border: 0;
+}
+.icondelete {
+  padding-top: 1px;
+  font-style: 20px;
+}
+.yesBtn{
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.yesBtn:hover{
+  border-color: rosybrown;
+  background-color: royalblue;;
+
+}
+.noBtn{
+  font-size: 18px;
+  background-color: rgb(58, 64, 97);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 0px;
+  cursor: pointer;
+
+}
+.noBtn:hover{
+    border-color: rgb(249, 216, 216);
+    background-color: rgb(84, 19, 76);
+
+}
+.yesSpan{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.noSpan{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* styles for admin contact.js page */
+
+.wrappers {
+  margin-left: 160px;
+  padding: 50px;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnAdd {
+  background-color: blue;
+  display: flex;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  border: 2px solid rgb(15, 15, 15);
+  cursor: pointer;
+}
+.btnAdd:hover {
+  background-color: grey;
+  color: white;
+}
+.iconspan {
+  padding-left: 5px;
+}
+.icon {
+  font-size: 20px;
+}
+.item {
+  flex: 1;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,146 @@
+.table {
+  table-layout: fixed;
+  /* width: 100%; */
+  width: 100%;
+  border: 3px solid transparent;
+  border-collapse: collapse;
+}
+.title {
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  font-size: 20px;
+}
+.tbody {
+  background-color: white;
+}
+.actionButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.data {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Data {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.Databtn {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 10px;
+  gap: 20px;
+}
+.tabRow .row {
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+  height: 20px;
+  background-color: rgb(69, 73, 75);
+}
+
+.text {
+  margin-left: 5px;
+  text-align: center;
+  /* justify-content: center; */
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(15, 15, 15);
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 8px;
+}
+.trow {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  color: red;
+  background-color: transparent;
+  font-size: 25px;
+  border: 0;
+  /* padding: 5px; */
+}
+.btn:first-child {
+  color: rgb(34, 197, 94);
+}
+.image {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+/* styles for exeecutiveTable */
+
+.images {
+  width: 50px;
+  height: 50px;
+}
+
+.button {
+  background-color: rgb(10, 10, 221);
+  color: white;
+  border-radius: 0;
+}
+.button:first-child{
+  background-color: green;
+  color: white;
+  border-radius: 0;
+}
+.button:first-child:hover{
+  background-color: rgb(8, 15, 19);
+
+}
+
+.button:hover {
+  background-color: purple;
+  color: white;
+}
+.delete {
+  background-color: red;
+  color: white;
+  margin-right: 30px;
+  border-radius: 0;
+}
+.delete:hover {
+  background-color: rgb(54, 21, 21);
+  color: white;
+}
+
+
+.header {
+  font-size: x-large;
+  font-weight: 900;
+  color: rgb(33, 23, 23);
+  font-family: "Roboto", sans-serif;
+}
+
+.tableHead {
+  /* color: white; */
+  background-color: rgb(141, 119, 232);
+}
+.paper{
+  width: 100%;
+}
+.editor{
+  width: 100%;
+}
+
+.head{
+  width: 100%;
+}

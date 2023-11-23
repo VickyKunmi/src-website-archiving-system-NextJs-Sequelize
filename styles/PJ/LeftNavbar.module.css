@@ -1,0 +1,55 @@
+.container {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    /* height: calc(150vh - 150px); */
+    color: white;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(8, 53, 74);
+    box-shadow: 3px 0px 6px 0px rgb(108, 108, 152);
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.text{
+    color: chartreuse;
+}
+.wrapper{
+    margin-left: 10px;
+    
+}
+.wrapper > ul {
+    margin-top: 80px;
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 100px;
+  }
+.list{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.logOut{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 100%;
+}
+
+.list a{
+    font-size: 18px;
+    font-family: "Roboto" sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 10px;
+}
+.list:hover{
+    color: goldenrod;
+}

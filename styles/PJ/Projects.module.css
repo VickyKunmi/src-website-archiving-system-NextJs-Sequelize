@@ -1,0 +1,33 @@
+.wrapper{
+    margin-left: 210px;
+    
+    height: calc(105vh - 105px);
+}
+.button{
+   
+    background-color: aqua;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 1%;
+    
+}
+
+.button:hover{
+    background-color: goldenrod;
+}
+
+.table{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.right{
+    margin-left: 70%;
+    margin-top: 1%;
+
+}
+.input{
+    margin-top: 1%;
+}

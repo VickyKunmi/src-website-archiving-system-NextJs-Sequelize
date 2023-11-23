@@ -1,0 +1,32 @@
+.success{
+    /* mix-blend-mode: saturation; */
+    /* background-color: black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.sucText{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    background-color: rgb(78, 78, 3);
+    border-collapse: collapse;
+    /* border-top-width: 1px yellow;
+    border-bottom-width: 1px yellow; */
+    border:3px yellow;
+    width: 50%;
+    color: white;
+    /* text-overflow: ellipsis; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    text-align: center;
+    opacity: 50%;
+}
+.icon{
+    font-size: 25px;
+    color: aqua;
+    margin-top: 7px;
+
+}

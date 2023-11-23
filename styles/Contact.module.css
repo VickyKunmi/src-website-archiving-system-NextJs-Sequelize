@@ -1,0 +1,33 @@
+.container {
+  /* height: calc(100vh - 100px); */
+  /* padding-left: 50px; */
+  display: flex;
+  margin-top: 60px;
+}
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.right {
+  margin-left: 20%;
+  width: 40%;
+}
+.element {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.left {
+  width: 60%;
+}
+.tableHead {
+  background-color: rgb(28, 20, 59);
+  
+}
+.header {
+  font-size: x-large;
+  font-weight: 900;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.table{
+  width: 100%;
+}

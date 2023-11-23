@@ -1,0 +1,103 @@
+.container {
+  color: black;
+}
+.wrapper {
+  margin-left: 160px;
+  padding: 50px;
+}
+.btnAdd {
+  background-color: blue;
+  display: flex;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  border: 2px solid rgb(15, 15, 15);
+  cursor: pointer;
+}
+.btnAdd:hover {
+  background-color: grey;
+  color: white;
+}
+.iconspan {
+  padding-left: 5px;
+}
+.icon {
+  font-size: 20px;
+}
+.item {
+  flex: 1;
+  padding-bottom: 10px;
+}
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete {
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+  display: flex;
+  margin-left: 30%;
+}
+.icondelete {
+  padding-top: 1px;
+  font-style: 20px;
+}
+.yesBtn {
+  background-color: red;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.question {
+  background-color: transparent;
+  color: black;
+  border: 0;
+}
+.yesBtn:hover {
+  border-color: rosybrown;
+  background-color: royalblue;
+}
+.yesSpan {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.noSpan {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.noBtn {
+  background-color: rgb(58, 64, 97);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.noBtn:hover {
+  border-color: rgb(249, 216, 216);
+  background-color: rgb(84, 19, 76);
+}
+.addExe {
+  background-color: rgb(54, 54, 199);
+  color: white;
+}
+.addExe:hover {
+  background-color: goldenrod;
+  
+}
